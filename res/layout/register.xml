@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#c8daea" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#c8daea"
+        tools:ignore="Orientation" >
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip" >
+
+            <!-- Logo Start -->
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="0.92"
+                android:contentDescription="TODO"
+                android:maxWidth="100dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/logo"
+                tools:ignore="HardcodedText,ContentDescription" />
+
+            <!-- Logo Ends -->
+        </LinearLayout>
+        <!-- Header Ends -->
+        <!-- Footer Start -->
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:layout_alignParentBottom="true"
+          
+            tools:ignore="Orientation" >
+        </LinearLayout>
+        <!-- Footer Ends -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            
+            tools:ignore="HardcodedText" >
+
+         
+
+            <!-- Name Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Full Name" 
+                android:textColor="#1428ea"/>
+            <!-- Name TextField -->
+
+            <EditText
+                android:id="@+id/registerName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="TextFields" />
+          
+                <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="ID No" 
+                android:textColor="#1428ea"/>
+            <!-- IDNo TextField -->
+
+     
+
+            <EditText
+                app:id="@+id/registerID"
+                app:layout_width="match_parent"
+                app:layout_height="wrap_content"
+                app:ems="10"
+                app:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+            
+                <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="KraPin No" 
+                android:textColor="#1428ea"/>
+            <!-- KraPin TextField -->
+
+                <EditText
+                    app:id="@+id/registerKra"
+                    app:layout_width="match_parent"
+                    app:layout_height="wrap_content"
+                    app:ems="10"
+                    app:inputType="number" />
+
+         
+            
+                <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Plot Number" 
+                android:textColor="#1428ea"/>
+            <!-- PlotNO TextField -->
+
+            <EditText
+                android:id="@+id/registerPlot"
+                 app:layout_width="match_parent"
+                    app:layout_height="wrap_content"
+                    app:ems="10"
+                    app:inputType="number" />
+                <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Number" 
+                android:textColor="#1428ea"/>
+            <!-- PlotNO TextField -->
+
+            <EditText
+                android:id="@+id/registerAcc"
+                app:layout_width="match_parent"
+                    app:layout_height="wrap_content"
+                    app:ems="10"
+                    app:inputType="number" />
+            
+            
+                <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone number" 
+                android:textColor="#1428ea"/>
+            <!-- Phone no TextField -->
+
+                <EditText
+                    app:id="@+id/registerPhone"
+                    app:layout_width="match_parent"
+                    app:layout_height="wrap_content"
+                    app:ems="10"
+                    app:inputType="phone" />
+
+          
+            
+            <!-- Email Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Email" 
+                android:textColor="#1428ea"/>
+            <!-- Email TextField -->
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="TextFields" />
+                    
+
+            <!-- Password Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Password"
+                android:textColor="#1428ea" />
+            <!-- Password TextField -->
+
+            <EditText
+                android:id="@+id/registerPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                tools:ignore="TextFields,Deprecated" />
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Confirm Password"
+                android:textColor="#1428ea" />
+            <!-- Password TextField -->
+
+            <EditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                tools:ignore="TextFields,Deprecated" />
+            
+
+            <!-- Error message -->
+
+            <TextView
+                android:id="@+id/register_error"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:textColor="#e30000"
+                android:textStyle="bold" />
+
+            <!-- Login Button -->
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:text="Register" 
+                android:textColor="#1428ea"/>
+
+            <!-- Link to Login Screen -->
+
+            <Button
+                android:id="@+id/btnLinkToLoginScreen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="@null"
+                android:text="Already registered. Login Me!"
+                android:textColor="#1428ea"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

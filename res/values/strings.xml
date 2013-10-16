@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World,MajiPay</string>
+    <string name="app_name">MajiPay</string>
+    <string name="m_ardthi_2013">MajiPay@ 2013</string>
+    <string name="land_map_view">Land Map View</string>
+    <string name="view_products">View Land Owners</string>
+    <string name="add_new_products">Add New Land Owners</string>
+ 
+    <string name="loan_calculator_screen">Loan Calculator Screen</string>
+    <string name="loanee_s_screen">Loanee\'s Screen</string>
+    <string name="loan_history">Loan History</string>
+     <string name="amountString">Amount:</string>
+    <string name="interestRateString">Interest Rate:</string>
+    <string name="loanPeriodString">Load Period:</string>
+    <string name="monthlyInstallmentString">Monthly Installment:</string>
+    <string name="toBeCalculatedString">To Be Calculated</string>
+    <string name="calculateString">Calculate</string>
+     <string name="gender">Gender </string>
+    <string-array name="interest_rate_array">
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+    </string-array>
+    <string-array name="period_array">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+     <string-array name="bank_array">
+          <item>Select category</item>
+         <item>Scratch Card</item>
+         <item>KCB</item>
+         <item>Family Bank</item>
+         <item>Chase Bank</item>
+     </string-array>
+        <string name="fixed_charge">Fixed Charge</string>
+</resources>

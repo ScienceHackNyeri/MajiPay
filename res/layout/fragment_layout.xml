@@ -1,0 +1,40 @@
+<com.majipay.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#c8daea" >
+
+    <!-- News Feed Button -->
+
+    <Button
+        android:id="@+id/btn_news_feed"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_newsfeed"
+        android:text="News"
+        android:textColor="#1428ea"
+        tools:ignore="HardcodedText" />
+
+    <!-- Friends Button -->
+
+    <Button
+        android:id="@+id/btn_friends"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_friends"
+        android:text="Customers"
+        android:textColor="#1428ea"
+        tools:ignore="HardcodedText" />
+
+    <!-- Messages Button -->
+
+    <Button
+        android:id="@+id/btn_messages"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_messages"
+        android:text="Bill Calculator"
+        android:textColor="#1428ea"
+        tools:ignore="HardcodedText" />
+
+   
+
+</com.majipay.DashboardLayout>

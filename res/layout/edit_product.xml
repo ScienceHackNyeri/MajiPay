@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#c8daea" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#c8daea"
+    android:orientation="vertical"
+    >
+    
+    <include layout="@layout/actionbar_layout" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Full Names"
+        android:textColor="#1428ea"
+        android:textSize="17dip"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <!-- Input Constituency -->
+
+    <EditText
+        android:id="@+id/inputConstituency"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        tools:ignore="TextFields" />
+  
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="ID Number"
+        android:textColor="#1428ea"
+        android:textSize="17dip"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <!-- Input Name -->
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        tools:ignore="TextFields" />
+ <!-- Title Deed Number Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Kra Number"
+        android:textColor="#1428ea"
+        android:textSize="17dip"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <!-- Input Title Deed Number-->
+
+    <EditText
+        android:id="@+id/inputTitledeedNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        tools:ignore="TextFields" />
+    <!-- Owner ID Number Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text=" Plot Number"
+        android:textColor="#1428ea"
+        android:textSize="17dip"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <!-- Input Owner ID Number-->
+
+    <EditText
+        android:id="@+id/inputOwnerIdNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true"
+        tools:ignore="TextFields" />
+    
+    <!-- Price Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Phone NO"
+        android:textColor="#1428ea"
+        android:textSize="17dip"
+        tools:ignore="HardcodedText,SpUsage" />
+      <!-- Input Price -->
+
+    
+
+    <EditText
+        android:id="@+id/inputPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:inputType="phone"
+        android:singleLine="true" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+         <!-- Button Create Product -->
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pay"
+            android:textColor="#1428ea"
+            tools:ignore="HardcodedText" />
+
+        <!-- Button Create Product -->
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Exit"
+            android:textColor="#1428ea"
+            tools:ignore="HardcodedText" />
+       
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
